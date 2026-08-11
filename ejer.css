@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  background-color: beige;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+}
+header nav li a {
+  text-decoration: none;
+  color: grey;
+}
+header nav li {
+  list-style: none;
+}
+header nav a:hover{
+color: yellow;
+}
+.ejer1{
+    background-color: #edf7ff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.ejer-2{
+  color: #0a2ff1;
+    font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  font-size: 39pt;
+}
+.ejer-p{
+      font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  color: #04146c;
+  text-align: center;
+}
+
+
+ol>li{
+    font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  font-size: 25pt;
+  color: #04146c;
+}
+.ejer-h1{
+   font-family: 'MuseoModerno', sans-serif;
+  font-weight: 700;
+  font-size: 88pt;
+  color: #0a2ff1;
+}
+
+h3{
+     font-family: 'MuseoModerno', sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  color: #0a2ff1; 
+}  
+.mod{
+    font-family: 'MuseoModerno', sans-serif;
+  font-weight: 500;
+  font-size: 149pt;
+  color: #8a9cf1;
+}
+.ejerc2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem;
+    color: white;
+    background-color: black;
+}
+.fech{
+    color: white;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50pt;
+}
+.bl{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 140pt;
+  background-color: white;
+  color: black;
+}
+.fry{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 163pt;
+  background-color: black;
+  color: white;
+}
+.des{
+    background-color: white;
+    color:black;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 45pt;
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36pt;
+}
+.noPierdas{
+     font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 44pt;
+  margin-bottom: 2rem;
+}
+
+footer{
+  color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+gap: 8rem;
+padding: 4rem;
+background-color: black;
+}
+.footer_logo img{
+  max-width: 150px;
+  height: auto;
+}
+.footer_info{
+  display: flex;
+  flex-direction: row;
+  gap: 5.2rem;
+  flex-wrap: wrap;
+}
+.footer_contactos{
+  align-items: center;
+  gap: 5rem;
+}
+.footer_info > div{
+  min-width: 180px;
+}
+.footer_redes{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+color: grey;
+align-items: center;
+  }
+.footer h4{
+  color: yellow;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  padding: 2.6rem;
+ align-items: center;
+}
+.box p ,h5{
+font-size: 1.1rem;
+margin: 0;
+ }
+ .footer-span{
+  color:yellow;
+  font-size: 1.3rem;
+padding: 0.7rem;
+
+ }
+
+
+
+/* estilos para Modelos */
+.Modelos h2{
+  display: flex;
+  justify-content: left;
+  padding: 8rem;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.modelos_caja{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  align-items: left;
+}
+.modelo_textos{
+  flex: 1;
+}
+.modelo_text{
+  margin-bottom: 1rem;
+ margin-left: 5rem;
+}
+.modelo_descripcion{
+ margin-bottom: 1rem;
+  justify-content:flex-start;
+   margin-left: 5rem;
+}
+.mode_img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.modelo_img {
+ 
+  border-radius: 8px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%; /* Ocupa todo el ancho */
+  max-width: 1200px;
+  padding: 2rem; 
+
+}
+
+.card_textos {
+  flex: 2;
+}
+
+.card_titulo {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card_descripcion {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  max-width: 300px;
+  word-wrap: break-word; /* por si hay palabras largas */
+  line-height: 1.5;
+}
+
+.card_imagen {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.card_imagen img {
+  max-width: 100rem;
+  height: auto;
+  border-radius: 8px;
+}
