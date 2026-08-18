@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(107, 101, 101);
+}
+header{display: flex;
+justify-content: space-between;
+margin:  20px 30px 40px 30px;}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    li{
+        list-style: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* info */
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+    gap: 20px;
+    
+}
+.info-encabezado{
+    background-color: yellow;
+    color: black;
+    
+}
+.linea{
+    border: 2px solid red;
+    width: 50%;
+    text-align: center;
+}

@@ -118,6 +118,20 @@ span{
   margin-bottom: 2rem;
 }
 
+/* ejerc3 */
+.ejerc3{
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  margin: 10px;
+}
+.ejerc-h3{
+text-align: center;
+
+}
+#ejercicio3{
+  color: white !important;
+}
 footer{
   color: white;
 display: flex;
