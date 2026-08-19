@@ -1,52 +1,89 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgb(107, 101, 101);
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:cornsilk;
+overflow-x: hidden;}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 40px 30px;
+  img{width: 20%}
 }
-header{display: flex;
+h1 {
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-family: "roboto";
+  font-size: 24px;
+  font-weight: 400;
+  li {
+    list-style: none;
+  }
+}
+/* container */
+.container {
+  display: flex;
+margin: 50px;
 justify-content: space-between;
-margin:  20px 30px 40px 30px;}
-nav ul{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    li{
-        list-style: none;
-    }
+gap: 20px;
+width: 100%;
+ 
 }
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container-parrafo,
+.info-media {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "roboto";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.info-media{
+  background-color: #FCEE21;
+}
+.img{display: flex;
+justify-content: flex-end;
+margin-right: 5rem;}
+.img img{
+height: auto;
+width: 60%;
+ 
+}
 /* info */
 
-.info{
-    display: flex;
-    justify-content: space-between;
-    margin: 4rem;
-    gap: 20px;
-    
+.nosotros {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
+  gap: 20px;
+  h2{font-family: 'roboto';
+    display: inline-block;
+  font-weight: 900;
+font-size: 26.42px;}
+p{font-family: 'roboto';
+font-weight: 400;
+font-size: 22px;}
+b{font-family: 'roboto';
+font-weight: 700;
+font-style: bold;
+font-size: 22px;}
 }
-.info-encabezado{
-    background-color: yellow;
-    color: black;
-    
+.info-encabezado {
+  background-color: yellow;
+  color: black;
 }
-.linea{
-    border: 2px solid red;
-    width: 50%;
-    text-align: center;
+.linea {
+  border: 2px solid red;
+  width: 50%;
+  text-align: center;
 }
