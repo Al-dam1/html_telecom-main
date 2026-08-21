@@ -29,7 +29,7 @@ color: rgb(236, 236, 59);
 font-family: italic;
 text-transform: uppercase;}
 .banner{
-  background-image: url(/fondo.jpg);
+  background-image: url(fondo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
