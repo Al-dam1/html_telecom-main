@@ -16,5 +16,6 @@ Este repositorio contiene ejercicios y ejemplos prácticos del curso de Python W
 - 💻 Módulo 4: Aplicación de Escritorio  
 - 🌐 Módulo 5: Introducción a HTML
 - 🌐 HTML (Interfaz gráfica)
+- 📒 Módulo 6: JavaScript
 
 ---
