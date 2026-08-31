@@ -2,9 +2,9 @@
 /*
 Contar del 1 al 20  
 Usa un for para imprimir los números del 1 al 20.*/
-for (let i = 1; i<=20; i++){
+/*for (let i = 1; i<=20; i++){
     console.log(i);
-}
+}*/
 /*
 
 Tabla de multiplicar  
@@ -15,14 +15,29 @@ Calcula la suma de los números del 1 al 50 usando un for.*/
 /*
 Cuenta regresiva  
 Usa un while para hacer una cuenta regresiva desde 10 hasta 0.
-*/
+*//*
 let j = 10;
 while (j >=0){
     console.log('cuenta regresiva en ', j);
     j--;
-}
+}*/
 /* Recorrer array  
 Declara un array con 5 nombres y usa un for para imprimir cada uno.
  */
 /* Buscar elemento  
 Usa un while para recorrer un array y detenerte cuando encuentres un nombre específico. */
+
+//Ejercicios de bucle while
+console.log('Bucle While');
+//Usá while para mostrar en consola los números del 1 al 10.
+let contador = 0;
+while(contador <=10){
+    console.log('Numero ',contador);
+    contador++
+}
+//Usá while para mostrar los números del 10 al 1.
+let contador2 = 10;
+while(contador2 >=1){
+    console.log('Numero ',contador2);
+    contador2--
+}
