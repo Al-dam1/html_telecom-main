@@ -63,7 +63,58 @@ h2:hover{
     margin-left: 70px;
     margin-bottom: 15px;
 }
+/*laboratorio formulario*/
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.form-h1{
+     font-weight: bold;
+     font-size: 24px;
+font-family:'Mulish';
+color:#04146c;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
 
+input{ font-size: 18px;
+    padding: 10px;
+    border: 2px solid #000;
+   font-family: 'Mulish';
+font-weight:400;
+    color:  #414166;
+    width: 500px;
+    height: 35px;
+    margin-bottom : 10px;
+}
+.line{
+    display: block;
+    border-top: 2px solid black;
+    margin: 10px 10px ;
+}
+.btn-enviar{
+  font-size: 20px; 
+  width: 500px;
+    height: 35px;
+    margin-bottom : 10px;
+font-family: 'Mulish';
+background-color:#0a2ff1 ;
+color: #fff;
+border: 1px solid #000;
+}
+.form-description{
+font-size: 18px;
+font-family: 'Mulish';
+color:#0a2ff1 ;
+margin-bottom: 10px;
+}
 /*Laboratorio1*/
 .laboratorio1{background-color: burlywood;
 display: flex;
