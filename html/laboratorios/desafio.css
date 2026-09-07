@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+/*
+.ejercicio1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: aqua;
+    padding: 15px;
+   align-items: center;
+}
+ul{display: flex;
+flex-direction: row;
+gap: 10px;}
+.active{
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #04146c;
+    font-weight: bold;
+}
+.navbar a:not(.active){
+      font-size: 18px;
+font-family: 'Roboto';
+color: #04146c;
+}
+.img{
+width: 5%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+    text-align: center;
+    gap: 5px;
+
+}
+.title-h1{
+    font-weight: bold;
+font-family: 'Roboto Slab';
+color:#0a2ff1 ;
+font-size:96px;
+}
+.title-parraf{
+     font-size: 26px;
+font-family: 'Roboto';
+color:#04146c ;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 30px 0;
+}
+/*contacto*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contacto-h1{
+   font-size: 45px;
+    color: #2c00cc ;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+    margin: 30px 0 30px 0;
+}
+.contacto-parraf{
+    font-size: 30px;
+    font-family: 'Roboto';
+    color:#04146c ;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+   
+}
+span{
+    color: red;
+}
+label{
+    font-size: 30px;
+    color:#04146c ;
+    font-family: 'Roboto';
+    align-items: center;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px 0 30px 0;
+    justify-content: center;
+    width: 100%;
+}
+.reset{
+    font-size: 32px;
+    background-color: #f98500 ;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
+.enviar{
+    padding: 10px;
+
+    font-size: 32px;
+    background-color: #2c00cc ;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+}
