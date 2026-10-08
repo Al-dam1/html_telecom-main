@@ -13,7 +13,8 @@ Este repositorio contiene ejercicios y ejemplos prácticos del curso de Python W
 - 📘 Módulo 1: Introducción a Python  
 - 📗 Módulo 2: Condicionales, Bucles y Listas  
 - 📙 Módulo 3: Módulos y Funciones  
-- 💻 Módulo 4: Aplicación de Escritorio  
+- 💻 Módulo 4: Aplicación de Escritorio 
+- 💻 Tkinter
 - 🌐 Módulo 5: Introducción a HTML
 - 🌐 HTML (Interfaz gráfica)
 - 📒 Módulo 6: JavaScript
