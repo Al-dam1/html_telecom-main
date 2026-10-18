@@ -1,46 +1,87 @@
-let matriz = [
-    ['argentina',2,3],
-    ['brasil',5,6],
-    ['chile',8,9]
-];
-console.table(matriz);
+// let matriz = [
+//     ['argentina',2,3],
+//     ['brasil',5,6],
+//     ['chile',8,9]
+// ];
+// console.table(matriz);
 //mostrar las posiciones 0 y 4 de la matriz
-console.log('posicion 0:', matriz[0][0]);
-console.log('posicion 4:', matriz[1][0]);
+// console.log('posicion 0:', matriz[0][0]);
+// console.log('posicion 4:', matriz[1][0]);
 
-let numeros = [
-    ['', ,''],
-    ['', ,''],
-    ['', ,''],
-    ['', ,''],
-    ['', ,''],
-    ];
+// let numeros = [
+//     ['', ,''],
+//     ['', ,''],
+//     ['', ,''],
+//     ['', ,''],
+//     ['', ,''],
+//     ];
 
-//llenar la matriz con numeros del 1 al 15
-let contador = 1;
-for (let i = 0; i < numeros.length; i++){
-    for(let j = 0; j < numeros[i].length;j++){
-        numeros[i][j] = contador;
-        contador++
-    }
-}
-console.log('matriz llena:');
-console.table(numeros);
+// //llenar la matriz con numeros del 1 al 15
+// let contador = 1;
+// for (let i = 0; i < numeros.length; i++){
+//     for(let j = 0; j < numeros[i].length;j++){
+//         numeros[i][j] = contador;
+//         contador++
+//     }
+// }
+// console.log('matriz llena:');
+// console.table(numeros);
 //console.log('posicion 4:', numeros[1][2]);
 //console.log('posicion 4:', numeros[2][1]);
 
 //necesito recorrer una matriz de 4x4 y mostrar por consola los elemntos
 //de la posicion 5 y 0 de cada fila
-let evg = [
-    [1,2,3,4],
-    [5,6,7,8],
-    [9,10,11,12],
-    [13,14,15,16],
-];
+// let evg = [
+//     [1,2,3,4],
+//     [5,6,7,8],
+//     [9,10,11,12],
+//     [13,14,15,16],
+// ];
 
-for (let i=0; i < evg.length; i++){
-    console.log(`fila ${i} en decreciente:`);
-    for (let j = evg[i].length -1; j >=0; j--){
-        console.log(evg[i] [j]);
-    }
+// for (let i=0; i < evg.length; i++){
+//     console.log(`fila ${i} en decreciente:`);
+//     for (let j = evg[i].length -1; j >=0; j--){
+//         console.log(evg[i] [j]);
+//     }
+// }
+
+// crea una funcion que sume todos los numerospares de una matriz
+
+// const matriz = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+
+// function sumaMatriz(matriz) {
+//     let sumaTotal = 0
+//     for(let i=0; i < matriz.length; i++){
+//         for(let j =0; j < matriz[i].length; j++){
+//            if (matriz[i][j] % 2=== 0) sumaTotal+= matriz[i][j]
+//         }
+//     }
+//     return sumaTotal;
+// }
+
+// console.log(sumaMatriz(matriz));
+
+
+const matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+for(let i=0; i < matriz.length; i++){
+    console.log(matriz[i]);
 }
+
+
+// console.log(matriz.length);
+// console.table(matriz[0][2]); //3
+// console.log(matriz[0][1]); //2
+
+// console.log(matriz[1][1]); //5
+// console.log(matriz[1][0]); //4
+
+// console.log(matriz[2][0]); //7
+// console.log(matriz[2][2]); //9

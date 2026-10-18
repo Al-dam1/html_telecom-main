@@ -24,8 +24,9 @@ console.log(colores);
 //insertar un color en la posicion 1
 colores.splice(1,0,'Naranja');
 console.log(colores);
-
-// Reemplazar el último color por 'Violeta'
+colores[0] = 'gris'
+colores[4] = 'brown'
+// reemplazar el último color por 'Violeta'
 colores[colores.length -1] = 'Violetta';
 console.log(colores);
 

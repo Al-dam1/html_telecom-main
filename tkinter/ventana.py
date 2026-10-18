@@ -23,8 +23,11 @@ entrada_texto = tk.Entry(
 entrada_texto.pack()
 
 def saludar():
-    nombre = entrada_texto.get().strip()
-    letrero_salida.configure(text=f'Hola, {nombre} ¿como estas?')
+    nombre = entrada_texto.get().strip().title()
+    valorStr.set(f'Hola, {nombre} ¿como estas?')
+
+valorStr = tk.StringVar()
+valorStr.set('Esperando...')
 
 boton = tk.Button(
     text='saludar',
@@ -36,7 +39,19 @@ boton.pack(pady=20)
 # letrero.pack( pady=(20,0), padx=10, anchor='e', side='bottom') #
 letrero_salida= tk.Label(
      ventana,
+     textvariable = valorStr,
         font=('Arial',14)
 )
 letrero_salida.pack()
+
+def actualizando_str(*args):
+    texto_actual = variable_entrada.get()
+    print(f'El usuario esta escribiendo: {texto_actual}')
+
+variable_entrada = tk.StringVar()
+variable_entrada.trace_add('write', actualizando_str)
+espejo = tk.Label(ventana, textvariable=variable_entrada, font=('Arial', 14, 'bold'))
+espejo.pack(pady=10)
+caja = tk.Entry(ventana, textvariable=variable_entrada)
+caja.pack()
 ventana.mainloop() #start the main event loop of the application
