@@ -9,20 +9,54 @@
 // la resultante de:
 // Costo Base * m² = usd 75,40
 
-metros = prompt('ingresa los metros cuadrados: ')
-metros_casa = prompt('tiuene asfalto? ').toLowerCase
-metros_edificio = prompt('vive en edificio? ').toLowerCase
-metros_quinta = prompt('vive en edificio? ').toLowerCase
+// metros = parseInt(prompt('Ingresa los metros cuadrados: '))
+// metros_casa = prompt('Tiene asfalto su cuadra? ').toLowerCase()
+// metros_edificio = prompt('Vive en edificio? ').toLowerCase()
+// metros_quinta = prompt('Vive en barrio privado? ').toLowerCase()
 
-costo_base = 1.16
-costo_edifico = 1.04
-costo_calle = 1.07
-costo_quinta = 1.21 
+//Tarifas
+// costo_base = 1.16
+// costo_edifico = 1.04
+// costo_calle = 1.07
+// costo_quinta = 1.21 
+// factura = 0
+// //---- 
+// costoTotal = metros * costo_base
 
-costoTotal = parseInt( metros * costo_base)
+// // && || logica
+// if (metros_casa == 'si' ){
+//     factura=  costo_calle  * costoTotal
+// }
+// else if( metros_edificio == 'si'){
+//     factura=  costo_edifico * costoTotal
+// }
+// else{
+//     factura = costo_quinta * costoTotal
+// }
 
-if (metros_casa == 'si' && metros_edificio == 'si' && metros_quinta == 'si'):
-    costoTotalMas = costoTotal + (costo_calle + costo_edifico + costo_edifico)
-    
+// alert('Bienvenidos al sistema de la AFIP ARGENTINA')
+// alert(`EL COSTO TOTAL ES   ${factura.toFixed(3)}`)
 
-alert(`el csoto totakl es ${costoTotal}`)
+// ------------
+edadUser = parseInt(prompt('Ingresa tu edad: '))
+if (edadUser <18){
+    alert('no puedes entrar')
+}
+else{
+    alert('bienvenido al club')
+}
+
+// -------
+// Consigna
+// Para este caso te proponemos solicitar un
+// usuario y clave.
+usuario = 'admin'
+clave= 1234
+ingresoUsuario = String(prompt('Ingresa el usuario: ')).toLocaleLowerCase()
+contraseñaUser = parseInt(prompt('Ingresa la contraseña: '))
+if (ingresoUsuario != usuario && contraseñaUser != clave){
+    alert('la contraseña y usuario no son correctos')
+}
+else{
+    alert('ingreso exitoso')
+}
